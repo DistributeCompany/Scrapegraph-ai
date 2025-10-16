@@ -1,0 +1,341 @@
+{
+    "BMS_Cognition_Data_and_Education_CODE": [
+        {
+            "name": "prof.dr.ing. W.B. Verwey",
+            "title": "Full Professor",
+            "phone": "+31534894764",
+            "email": "w.b.verwey@utwente.nl",
+            "personal_page": "https://people.utwente.nl/w.b.verwey"
+        },
+        {
+            "name": "dr. E.C. Roelofs",
+            "title": "Associate Professor",
+            "phone": "+31534896430",
+            "email": "e.c.roelofs@utwente.nl",
+            "personal_page": "https://people.utwente.nl/e.c.roelofs"
+        },
+        {
+            "name": "M.W. Westerhof MSc",
+            "title": "Lecturer",
+            "phone": "+31534895867",
+            "email": "m.w.westerhof@utwente.nl",
+            "personal_page": "https://people.utwente.nl/m.w.westerhof"
+        },
+        {
+            "name": "dr. S. Borsci",
+            "title": "Associate Professor of Human Factors and Cognitive Ergonomics",
+            "phone": "+31534899014",
+            "email": "s.borsci@utwente.nl",
+            "personal_page": "https://people.utwente.nl/s.borsci"
+        },
+        {
+            "name": "dr. F. Yildirim",
+            "title": "Assistant Professor",
+            "phone": "+31534891456",
+            "email": "f.yildirim@utwente.nl",
+            "personal_page": "https://people.utwente.nl/f.yildirim"
+        }
+    ],
+    "BMS_Industrial_Engineering_Business_Information_Systems_IEBIS": [
+        {
+            "name": "prof.dr. J. van Hillegersberg",
+            "title": "Full Professor",
+            "phone": "+31534893513",
+            "email": "j.vanhillegersberg@utwente.nl",
+            "personal_page": "https://people.utwente.nl/j.vanhillegersberg"
+        },
+        {
+            "name": "prof.dr.ir. M.R.K. Mes",
+            "title": "Full Professor",
+            "phone": "+31534894062",
+            "email": "m.r.k.mes@utwente.nl",
+            "personal_page": "https://people.utwente.nl/m.r.k.mes"
+        },
+        {
+            "name": "dr. P.C. Schuur",
+            "title": "Scientific Visitor",
+            "phone": "+31534893658",
+            "email": "p.c.schuur@utwente.nl",
+            "personal_page": "https://people.utwente.nl/p.c.schuur"
+        },
+        {
+            "name": "dr.ir. E.A. Lalla",
+            "title": "Associate Professor | Industrial Engineering and Management (IEM) Programme Director",
+            "phone": "+31534891977",
+            "email": "e.a.lalla@utwente.nl",
+            "personal_page": "https://people.utwente.nl/e.a.lalla"
+        },
+        {
+            "name": "dr. J.P.S. Piest",
+            "title": "Assistant Professor",
+            "phone": "+31534895981",
+            "email": "j.p.s.piest@utwente.nl",
+            "personal_page": "https://people.utwente.nl/j.p.s.piest"
+        },
+        {
+            "name": "dr.ir. J.M.J. Schutten",
+            "title": "Associate Professor",
+            "phone": "+31534894676",
+            "email": "m.schutten@utwente.nl",
+            "personal_page": "https://people.utwente.nl/m.schutten"
+        },
+        {
+            "name": "dr.ir. W.J.A. van Heeswijk",
+            "title": "Assistant Professor",
+            "phone": "+31534898460",
+            "email": "w.j.a.vanheeswijk@utwente.nl",
+            "personal_page": "https://people.utwente.nl/w.j.a.vanheeswijk"
+        },
+        {
+            "name": "dr. A. Trivella",
+            "title": "Assistant Professor of Operations Research",
+            "phone": "+31534899750",
+            "email": "a.trivella@utwente.nl",
+            "personal_page": "https://people.utwente.nl/a.trivella"
+        },
+        {
+            "name": "dr. A. Asadi",
+            "title": "Assistant Professor in Data Science, AI, OR, and Logistics",
+            "phone": "+31534898863",
+            "email": "amin.asadi@utwente.nl",
+            "personal_page": "https://people.utwente.nl/amin.asadi"
+        },
+        {
+            "name": "dr. D.R.J. Prak",
+            "title": "Assistant Professor",
+            "phone": "+31534897778",
+            "email": "d.r.j.prak@utwente.nl",
+            "personal_page": "https://people.utwente.nl/d.r.j.prak"
+        },
+        {
+            "name": "dr. P.B. Rogetzer",
+            "title": "Assistant Professor",
+            "phone": "+31534891546",
+            "email": "p.b.rogetzer@utwente.nl",
+            "personal_page": "https://people.utwente.nl/p.b.rogetzer"
+        },
+        {
+            "name": "ir. R.L.A. Harmelink",
+            "title": "Researcher",
+            "phone": "+31534898720",
+            "email": "r.l.a.harmelink@utwente.nl",
+            "personal_page": "https://people.utwente.nl/r.l.a.harmelink"
+        },
+        {
+            "name": "dr.ir. F.R. Akkerman",
+            "title": "Researcher",
+            "phone": "+31534896891",
+            "email": "f.r.akkerman@utwente.nl",
+            "personal_page": "https://people.utwente.nl/f.r.akkerman"
+        },
+        {
+            "name": "M. Brunetti",
+            "title": "PhD Candidate (Guest)",
+            "phone": "+31534895358",
+            "email": "m.brunetti@utwente.nl",
+            "personal_page": "https://people.utwente.nl/m.brunetti"
+        },
+        {
+            "name": "dr.ir. M. Koot",
+            "title": "Assistant Professor",
+            "phone": "+31534896083",
+            "email": "m.koot@utwente.nl",
+            "personal_page": "https://people.utwente.nl/m.koot"
+        },
+        {
+            "name": "L.R. Buning MSc",
+            "title": "PhD Candidate (Guest)",
+            "phone": "+31534897836",
+            "email": "lejo.buning@utwente.nl",
+            "personal_page": "https://people.utwente.nl/lejo.buning"
+        }
+    ],
+    "BMS_Department_of_Philosophy": [
+        {
+            "name": "dr. K. Karaca",
+            "title": "Assistant Professor",
+            "phone": "+31534895060",
+            "email": "k.karaca@utwente.nl",
+            "personal_page": "https://people.utwente.nl/k.karaca"
+        }
+    ],
+    "EEMCS_Design_and_Analysis_of_Communication_Systems": [
+        {
+            "name": "prof.dr.ir. G.J. Heijenk",
+            "title": "Full Professor Wireless Networks & Mobility",
+            "phone": "+31534895693",
+            "email": "geert.heijenk@utwente.nl",
+            "personal_page": "https://people.utwente.nl/geert.heijenk"
+        },
+        {
+            "name": "K. Ben Fredj MSc MRes",
+            "title": "PhD Candidate",
+            "phone": "+31534892836",
+            "email": "k.benfredj@utwente.nl",
+            "personal_page": "https://people.utwente.nl/k.benfredj"
+        },
+        {
+            "name": "ir. F. Marzani",
+            "title": "PhD Candidate",
+            "phone": "+31534891720",
+            "email": "f.marzani@utwente.nl",
+            "personal_page": "https://people.utwente.nl/f.marzani"
+        }
+    ],
+    "EEMCS_Pervasive_Systems_PS": [
+        {
+            "name": "dr.ing. Y. Huang",
+            "title": "Assistant Professor",
+            "phone": "+31534895311",
+            "email": "yanqiu.huang@utwente.nl",
+            "personal_page": "https://people.utwente.nl/yanqiu.huang"
+        },
+        {
+            "name": "dr.ir. R.H. Bemthuis",
+            "title": "Assistant Professor",
+            "phone": "+31534897009",
+            "email": "r.h.bemthuis@utwente.nl",
+            "personal_page": "https://people.utwente.nl/r.h.bemthuis"
+        },
+        {
+            "name": "A.R. Pallamreddy MSc",
+            "title": "PhD Candidate",
+            "phone": "+31534896325",
+            "email": "a.r.pallamreddy@utwente.nl",
+            "personal_page": "https://people.utwente.nl/a.r.pallamreddy"
+        },
+        {
+            "name": "K. Ben Fredj MSc MRes",
+            "title": "PhD Candidate",
+            "phone": "+31534892836",
+            "email": "k.benfredj@utwente.nl",
+            "personal_page": "https://people.utwente.nl/k.benfredj"
+        }
+    ],
+    "EEMCS_Services_Cybersecurity_Safety_SCS": [
+        {
+            "name": "dr.ir. M.J. van Sinderen",
+            "title": "Researcher (Guest)",
+            "phone": "+31534893677",
+            "email": "m.j.vansinderen@utwente.nl",
+            "personal_page": "https://people.utwente.nl/m.j.vansinderen"
+        }
+    ],
+    "ET_Transport_Engineering_and_Management_TEM": [
+        {
+            "name": "prof.dr.ir. E.C. van Berkum",
+            "title": "Full Professor",
+            "phone": "+31534894886",
+            "email": "e.c.vanberkum@utwente.nl",
+            "personal_page": "https://people.utwente.nl/e.c.vanberkum"
+        },
+        {
+            "name": "dr.ir. O.A.L. Eikenbroek",
+            "title": "Assistant Professor",
+            "phone": "+31534896020",
+            "email": "o.a.l.eikenbroek@utwente.nl",
+            "personal_page": "https://people.utwente.nl/o.a.l.eikenbroek"
+        },
+        {
+            "name": "prof.dr.ing. K.T. Geurs",
+            "title": "Full Professor",
+            "phone": "+31534891056",
+            "email": "k.t.geurs@utwente.nl",
+            "personal_page": "https://people.utwente.nl/k.t.geurs"
+        },
+        {
+            "name": "dr. K. Gkiotsalitis",
+            "title": "Assistant Professor (Guest)",
+            "phone": "+31534891870",
+            "email": "k.gkiotsalitis@utwente.nl",
+            "personal_page": "https://people.utwente.nl/k.gkiotsalitis"
+        },
+        {
+            "name": "dr. A.B. Grigolon",
+            "title": "Assistant Professor",
+            "phone": "+31534893865",
+            "email": "a.b.grigolon@utwente.nl",
+            "personal_page": "https://people.utwente.nl/a.b.grigolon"
+        },
+        {
+            "name": "A. Tirachini PhD",
+            "title": "Associate Professor",
+            "phone": "+31534891771",
+            "email": "alejandro.tirachini@utwente.nl",
+            "personal_page": "https://people.utwente.nl/alejandro.tirachini"
+        },
+        {
+            "name": "dr.ir. M.B. Ulak PhD",
+            "title": "Assistant Professor",
+            "phone": "+31534894815",
+            "email": "m.b.ulak@utwente.nl",
+            "personal_page": "https://people.utwente.nl/m.b.ulak"
+        },
+        {
+            "name": "dr.ir. L.J.J. Wismans",
+            "title": "Associate Professor",
+            "phone": "+31534896456",
+            "email": "l.j.j.wismans@utwente.nl",
+            "personal_page": "https://people.utwente.nl/l.j.j.wismans"
+        }
+    ],
+    "ET_Construction_Management_and_Engineering_CME": [
+        {
+            "name": "mr.dr.ir. J.M. Oliveira dos Santos",
+            "title": "Assistant Professor",
+            "phone": "+31534898286",
+            "email": "j.m.oliveiradossantos@utwente.nl",
+            "personal_page": "https://people.utwente.nl/j.m.oliveiradossantos"
+        }
+    ],
+    "ITC_Faculty_Bureau": [
+        {
+            "name": "dr.ing. S. Girgin MSc",
+            "title": "Associate Professor, Head of CRIB",
+            "phone": "+31534895578",
+            "email": "s.girgin@utwente.nl",
+            "personal_page": "https://people.utwente.nl/s.girgin"
+        }
+    ],
+    "ITC_Department_of_Geo-information_Processing_GIP": [
+        {
+            "name": "M.J. Kraak",
+            "title": "Professor Emeritus",
+            "phone": "+31534893472",
+            "email": "m.j.kraak@utwente.nl",
+            "personal_page": "https://people.utwente.nl/m.j.kraak"
+        }
+    ],
+    "ITC_Department_of_Natural_Resources": [
+        {
+            "name": "prof. A.D. Nelson",
+            "title": "Full Professor",
+            "phone": "+31534893072",
+            "email": "a.nelson@utwente.nl",
+            "personal_page": "https://people.utwente.nl/a.nelson"
+        },
+        {
+            "name": "prof.dr. A.K. Skidmore",
+            "title": "Full Professor",
+            "phone": "+31534874276",
+            "email": "a.k.skidmore@utwente.nl",
+            "personal_page": "https://people.utwente.nl/a.k.skidmore"
+        }
+    ],
+    "ITC_Department_of_Urban_and_Regional_Planning_and_Geo-Information_Management": [
+        {
+            "name": "prof.dr. K. Pfeffer",
+            "title": "Full Professor",
+            "phone": "+31534897422",
+            "email": "",
+            "personal_page": "https://people.utwente.nl/k.pfeffer"
+        },
+        {
+            "name": "ir. M.J.G. Brussel",
+            "title": "Lecturer",
+            "phone": "+31534874497",
+            "email": "m.j.g.brussel@utwente.nl",
+            "personal_page": "https://people.utwente.nl/m.j.g.brussel"
+        }
+    ]
+}

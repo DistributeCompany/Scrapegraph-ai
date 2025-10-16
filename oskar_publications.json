@@ -1,0 +1,118 @@
+{
+    "publications": [
+        {
+            "title": "Passenger social rerouting strategies in capacitated public transport systems",
+            "year": 2024,
+            "journal": "Transportation research. Part E: Logistics and transportation review",
+            "volume": "188",
+            "article": "103598",
+            "authors": [
+                "Luan, X.",
+                "Eikenbroek, O. A. L.",
+                "Corman, F.",
+                "van Berkum, E. C."
+            ],
+            "doi": "https://doi.org/10.1016/j.tre.2024.103598"
+        },
+        {
+            "title": "An agent-based electric vehicle charging demand modelling framework to assess the needs for the energy transition in transport",
+            "year": 2023,
+            "type": "Dataset",
+            "authors": [
+                "Girgin, S.",
+                "Ulak, B. M.",
+                "Eikenbroek, O. A. L."
+            ],
+            "doi": "https://doi.org/10.5281/zenodo.8186578"
+        },
+        {
+            "title": "Variations in Urban Traffic",
+            "year": 2023,
+            "type": "PhD Thesis",
+            "authors": [
+                "Eikenbroek, O. A. L."
+            ],
+            "doi": "https://doi.org/10.3990/1.9789055843213"
+        },
+        {
+            "title": "An agent-based electric vehicle charging demand modelling framework to assess the needs for the energy transition in transport",
+            "year": 2023,
+            "type": "Conference Paper",
+            "authors": [
+                "Girgin, S.",
+                "Ulak, M. B.",
+                "Eikenbroek, O. A. L."
+            ],
+            "doi": "https://doi.org/10.5281/zenodo.10207489"
+        },
+        {
+            "title": "De potentie van sociaal reisadvies als sturingsmaatregel in het openbaar vervoer",
+            "year": 2023,
+            "journal": "Tijdschrift vervoerswetenschap",
+            "volume": "59",
+            "issue": "3",
+            "pages": "66-82",
+            "authors": [
+                "Eikenbroek, O. A. L.",
+                "Luan, X.",
+                "van Berkum, E. C.",
+                "Corman, F."
+            ]
+        },
+        {
+            "title": "Improving the performance of a traffic system by fair rerouting of travelers",
+            "year": 2022,
+            "journal": "European journal of operational research",
+            "volume": "299",
+            "issue": "1",
+            "pages": "195-207",
+            "authors": [
+                "Eikenbroek, O. A. L.",
+                "Still, G. J.",
+                "van Berkum, E. C."
+            ],
+            "doi": "https://doi.org/10.1016/j.ejor.2021.06.036"
+        },
+        {
+            "title": "Social rerouting in public transport networks",
+            "year": 2022,
+            "type": "Conference Paper",
+            "authors": [
+                "Eikenbroek, O. A. L.",
+                "Luan, X.",
+                "Corman, F.",
+                "van Berkum, E. C."
+            ]
+        },
+        {
+            "title": "Decision making under uncertainty in public transport networks: The case of stochastic railway traffic control",
+            "year": 2021,
+            "type": "Conference Paper",
+            "authors": [
+                "Trivella, A.",
+                "Corman, F.",
+                "Eikenbroek, O. A. L."
+            ]
+        },
+        {
+            "title": "How Route Guidance with Small Detours for Only a Fraction of All Travelers Can Significantly Improve Network Performance",
+            "year": 2021,
+            "type": "Conference Paper",
+            "authors": [
+                "Eikenbroek, O. A. L.",
+                "Still, G. J.",
+                "van Berkum, E. C."
+            ]
+        },
+        {
+            "title": "Including stochasticity in railway traffic management models",
+            "year": 2021,
+            "type": "Conference Paper",
+            "authors": [
+                "Corman, F.",
+                "Trivella, A.",
+                "Eikenbroek, O. A. L."
+            ]
+        }
+    ]
+}
