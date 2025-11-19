@@ -226,42 +226,56 @@ Summary: {summary[:5000]}"""  # Limit summary length
             print(f"  ⚠ Ollama error: {e}")
             return f"Error: {str(e)}", False
     
-    def process_essays(self, start_id=108670, count=100):
-        """Process multiple essays"""
+    def process_essays(self, start_id=108670, count=100, overwrite=False):
+        """Process multiple essays
+        
+        Args:
+            start_id: Starting essay ID
+            count: Number of essays to process
+            overwrite: If True, reprocess essays even if they're already in cache
+        """
         print(f"\n{'='*60}")
         print(f"Starting essay processing")
         print(f"Start ID: {start_id}, Count: {count}")
+        print(f"Overwrite mode: {'ENABLED' if overwrite else 'DISABLED'}")
         print(f"{'='*60}\n")
         
         # Determine which IDs to process
         ids_to_process = list(range(start_id, start_id - count, -1))
         
-        # Filter out already processed IDs
-        new_ids = [id for id in ids_to_process if id not in self.cache]
-        
-        if len(new_ids) < len(ids_to_process):
-            print(f"ℹ Skipping {len(ids_to_process) - len(new_ids)} already processed IDs")
+        # Filter out already processed IDs (unless overwrite is True)
+        if overwrite:
+            new_ids = ids_to_process
+            print(f"⚠ Overwrite mode: Will reprocess ALL {len(new_ids)} essays")
+        else:
+            new_ids = [id for id in ids_to_process if id not in self.cache]
+            
+            if len(new_ids) < len(ids_to_process):
+                print(f"ℹ Skipping {len(ids_to_process) - len(new_ids)} already processed IDs")
         
         if not new_ids:
             print("✓ All requested IDs are already in cache!")
             return
         
-        print(f"Processing {len(new_ids)} new essays...\n")
+        print(f"Processing {len(new_ids)} essays...\n")
         
         # Setup driver
         self.setup_driver()
         
         processed_count = 0
         included_count = 0
+        overwritten_count = 0
         
         try:
             for i, essay_id in enumerate(new_ids, 1):
-                print(f"[{i}/{len(new_ids)}] Processing ID {essay_id}...", end=' ')
+                was_cached = essay_id in self.cache
+                status_prefix = "[OVERWRITE]" if (overwrite and was_cached) else "[NEW]"
+                
+                print(f"{status_prefix} [{i}/{len(new_ids)}] Processing ID {essay_id}...", end=' ')
                 
                 # Scrape the essay
                 essay_data, error = self.scrape_essay_page(essay_id)
                 
-
                 if error:
                     print(f"✗ {error}")
                     self.failed_ids.append((essay_id, error))
@@ -283,6 +297,8 @@ Summary: {summary[:5000]}"""  # Limit summary length
                     # Add to cache
                     self.cache[essay_id] = essay_item
                     processed_count += 1
+                    if was_cached:
+                        overwritten_count += 1
                     continue
                 
                 print(f"✓ Scraped", end=' ')
@@ -311,6 +327,9 @@ Summary: {summary[:5000]}"""  # Limit summary length
                 self.cache[essay_id] = essay_item
                 processed_count += 1
                 
+                if was_cached:
+                    overwritten_count += 1
+                
                 if included:
                     included_count += 1
                     print(f"→ ✓ INCLUDED")
@@ -334,6 +353,8 @@ Summary: {summary[:5000]}"""  # Limit summary length
         print(f"\n{'='*60}")
         print(f"Processing complete!")
         print(f"Processed: {processed_count}")
+        if overwrite:
+            print(f"Overwritten: {overwritten_count}")
         print(f"Included: {included_count}")
         print(f"Failed: {len(self.failed_ids)}")
         print(f"{'='*60}\n")
@@ -375,10 +396,11 @@ Summary: {summary[:5000]}"""  # Limit summary length
 # Main execution
 if __name__ == "__main__":
     # Configuration
-    START_ID = 108871
-    COUNT = 5000
+    START_ID = 75070
+    COUNT = 10000
     CACHE_FILE = 'essay_cache.pkl'
     CSV_FILE = 'essays.csv'
+    OVERWRITE = True  # Set to True to reprocess cached items
     
     # Create scraper instance
     scraper = EssayScraper(
@@ -389,7 +411,7 @@ if __name__ == "__main__":
     )
     
     # Process essays
-    scraper.process_essays(start_id=START_ID, count=COUNT)
+    scraper.process_essays(start_id=START_ID, count=COUNT, overwrite=OVERWRITE)
     
     # Print statistics
     scraper.print_statistics()
